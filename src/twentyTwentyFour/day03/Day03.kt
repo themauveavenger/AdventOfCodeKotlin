@@ -37,8 +37,8 @@ fun readParseDataPart2(): Int {
         r.value
     }
 
-    var enabled = true;
-    var sum = 0;
+    var enabled = true
+    var sum = 0
     for (instruction in instructions) {
         when (instruction) {
             "do" -> enabled = true
@@ -47,7 +47,7 @@ fun readParseDataPart2(): Int {
         }
     }
 
-    return sum;
+    return sum
 }
 
 fun part1() {
@@ -57,7 +57,7 @@ fun part1() {
 
 fun part2() {
     val result = readParseDataPart2()
-    println("part 2: $result");
+    println("part 2: $result")
 }
 
 fun main() {
