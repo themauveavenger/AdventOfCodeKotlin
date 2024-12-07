@@ -2,7 +2,7 @@ package twentyTwentyFour.day05
 
 import java.io.File
 
-class Rule(val before: Int, val after: Int) {
+class Rule(private val before: Int, private val after: Int) {
     fun isUpdateGood(update: List<Int>): Boolean {
         val beforeIndex = update.indexOf(before)
         val afterIndex = update.indexOf(after)
