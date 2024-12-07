@@ -122,8 +122,8 @@ fun part2() {
 
 fun main() {
     val time1 = measureTime { part1() }
-    println(time1.inWholeMilliseconds)
+    println("${time1.inWholeMilliseconds}ms")
 
     val time2 = measureTime { part2() }
-    println(time2.inWholeMilliseconds)
+    println("${time2.inWholeMilliseconds}ms")
 }
